@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:               nate of nine
 tagline:             'viva la digital'
-description:         ''
+description:         '<img src="http://nateofnine.com/wp-content/uploads/2014/10/wnIwZCsH_400x400.png">
 url:                 http://nateofnine.com
 baseurl:             /
 paginate:            5
