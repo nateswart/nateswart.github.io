@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating Weekday-only iOS Reminders
+title: 'Creating Weekday-only iOS Reminders'
 tags:
 - reminders
 - siri

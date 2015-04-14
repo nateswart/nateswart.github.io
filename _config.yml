@@ -1,5 +1,5 @@
 # Dependencies
-markdown:            redcarpet
+markdown:            kramdown
 highlighter:         pygments
 
 # Permalinks
@@ -9,9 +9,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               nate of nine
-tagline:             'viva la digital'
-description:         '<img src="http://nateofnine.com/wp-content/uploads/2014/10/n91.png">'
+title:               'nate of nine'
+tagline:             ''
+description:         '<a href="/"><img src="/public/n9_large.png"></a>'
 url:                 http://nateofnine.com
 baseurl:             /
 paginate:            5
