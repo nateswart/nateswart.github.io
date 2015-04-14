@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Creating Weekday-only iOS Reminders
+tags:
+- reminders
+- siri
+- workflow
 ---
 
 Here's a quick tip; have you ever wanted to create a daily, but weekday-only, repeating task in iOS Reminders? The UI is rather limited but the functionality does exist.
