@@ -15,4 +15,4 @@ Simply tell Siri something like:
 
 > Remember to pack a lunch on weekdays
 
-Siri will offer to create the reminder for you and it will have a custom repeat setting. once created you wont be able to view/edit the repeat settings in Reminders, but thats not a huge deal since it's sinple enough to ask Siri to create you a new one!
+Siri will offer to create the reminder for you and it will have a custom repeat setting. once created you wont be able to view/edit the repeat settings in Reminders, but thats not a huge deal since it's simple enough to ask Siri to create you a new one!
