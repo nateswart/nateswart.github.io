@@ -27,3 +27,7 @@ version:             1.0.0
 
 gems:
   - jekyll-sitemap
+
+
+
+google_analytics: UA-61898428-2
