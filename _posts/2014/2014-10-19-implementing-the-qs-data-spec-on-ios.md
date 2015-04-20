@@ -45,8 +45,10 @@ This one is very simple. We need to pass a URL-encoded version of the base JSON 
 
 As I mentioned previously, we will add the uuid and timestamp values dynamically within Drafts, so our Launch Center Pro action simply looks like this:
 
+{% raw %}
     drafts4://x-callback-url/runAction?text={{%7B%22dataType%22%3A%22consumption-waste%22%2C%22dataSource%22%3A%22manual%22%2C%22urine%22%3Atrue%2C%22feces%22%3Afalse%7D}}&action={{Log QuantifiedSelf Entry}}&x-success={{launch:}}
-    
+{% endraw %}
+
 
 This action is basically saying do the following steps:
 
@@ -75,8 +77,10 @@ The multi-step example follows the identical process as the single-step example 
 
 Our Launch Center Pro action, complete with user prompts to select the values of the three inputs looks like this:
 
+{% raw %}
     drafts4://x-callback-url/runAction?text={{%7B%22dataType%22%3A%22biometric-emotional%22%2C%22dataSource%22%3A%22manual%22%2C%22energyLevel%22%3A[list:Energy Level|Energetic=5|Alert=4|Neutral=3|Tired=2|Exhausted=1]%2C%22mood%22%3A[list:Mood|Amazing=5|Good=4|Okay=3|Bad=2|Terrible=1]%2C%22stressLevel%22%3A[list:Stress Level|Stressed=5|Anxious=4|Neutral=3|Relaxed=2|Chill=1]%7D}}&action={{Log QuantifiedSelf Entry}}&x-success={{launch:}}
-    
+{% endraw %}
+
 
 ### Bonus! Medical Log
 
@@ -95,8 +99,10 @@ You get the picture, right? So as a bonus we have the [QS Data Spec example for 
 
 And the corresponding Launch Center Pro action, customized with entries for Ibuprofen and Ranitidine:
 
+{% raw %}
     drafts4://x-callback-url/runAction?text={{%7B%22dataType%22%3A%22consumption-waste%22%2C%22dataSource%22%3A%22manual%22%2C%22urine%22%3Atrue%2C%22feces%22%3Afalse%7D}}&action={{Log QuantifiedSelf Entry}}&x-success={{launch:}}
-    
+{% endraw %}
+
 
 ## Drafts 4
 
