@@ -5,7 +5,7 @@ tags:
 - 3dprinting
 ---
 
-I'm fairly new to 3D printing, but one of the first things I noticed was how slow [Slic3r][1] can be when generating gcode files to print. After some quick Googling it seems as though slic3r grew in popularity back when it was faster but has since slowed down with each subsequent release. There's no doubt that people are posting and printing more complex and higher resolution models which I'm sure adds to this.
+I'm fairly new to 3D printing, but one of the first things I noticed was how slow [Slic3r][1] can be when generating gcode files to print. After some quick Googling it seems as though Slic3r grew in popularity back when it was faster but has since slowed down with each subsequent release. There's no doubt that people are posting and printing more complex and higher resolution models which I'm sure adds to this.
 
 Fortunately, the "fix" is really easy. I say "fix" in quotes because it is more of a workaround and with most things there is a tradeoff. The magic happens in the Print Settings tab in Slic3r. Simply uncheck the "Avoid crossing perimeters" setting and you'll notice a vast performance improvement!
 
