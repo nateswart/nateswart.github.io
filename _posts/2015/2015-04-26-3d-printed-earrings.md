@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '3D Printed Earings'
+title: '3D Printed Earrings'
 tags:
 - 3dprinting
 - jewelry
